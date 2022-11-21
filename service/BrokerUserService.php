@@ -7,6 +7,6 @@ class BrokerUserService
     public function test()
     {
        $res =  XsBrokerUser::getValueByUid(1);
-       var_dump([$res,COMPO_PROXY_URL]);
+       var_dump([$res->toArray(),COMPO_PROXY_URL]);
     }
 }
