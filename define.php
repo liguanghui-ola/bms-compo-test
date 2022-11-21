@@ -1,2 +1,2 @@
 <?php
-define("COMPO_PROXY_URL","http:www.baidu.com");
+define("COMPO_TEST_PROXY_URL","http:www.baidu.com");
