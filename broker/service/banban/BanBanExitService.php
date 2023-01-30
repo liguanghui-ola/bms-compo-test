@@ -8,6 +8,7 @@ use Imee\Package\Broker\Service\BanBan\Base\BaseExitService;
 
 class BanBanExitService extends BaseExitService
 {
+    protected $operator = [];
     protected function join(array $params): array
     {
         $userInfo = XsBrokerUser::findOne(47);
