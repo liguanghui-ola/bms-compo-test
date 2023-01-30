@@ -2,7 +2,9 @@
 
 namespace Imee\Package\Broker\Service\BanBan;
 
-use Imee\Package\Broker\Service\BaseJoinService;
+
+
+use Imee\Package\Broker\Service\BanBan\Base\BaseJoinService;
 
 class BanBanJoinService extends BaseJoinService
 {

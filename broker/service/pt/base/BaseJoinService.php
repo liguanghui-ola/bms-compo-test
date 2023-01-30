@@ -1,6 +1,6 @@
 <?php
 
-namespace Imee\Package\Broker\Service;
+namespace Imee\Package\Broker\Service\Pt\Base;
 
 abstract class BaseJoinService
 {
