@@ -18,7 +18,7 @@ abstract class BaseExitService
     protected function checkAllRule($brokerInfo, $uid): array
     {
         foreach ($this->operator as $class) {
-            $class = "\Imee\Package\Broker\Service\Rule\\".$class . "Rule";
+            $class = "\Imee\Package\Broker\Service\Banban\ExitRule\\".$class . "Rule";
 
             if (!class_exists($class)) {
                 throw new \Exception($class . "not found");
