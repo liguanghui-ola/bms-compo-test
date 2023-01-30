@@ -4,7 +4,7 @@ namespace Imee\Package\Broker\Service\Pt\Base;
 
 abstract class BaseExitService
 {
-    protected $operator = ["Age", "Time", "IsHost"];
+    protected $operator = [];
 
     public function __construct()
     {
