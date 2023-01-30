@@ -1,6 +1,6 @@
 <?php
 
-namespace Imee\Package\Broker\Service\ExitRule;
+namespace Imee\Package\Broker\Service\Pt\ExitRule;
 
 use Imee\Package\Broker\Service\RuleInterface;
 

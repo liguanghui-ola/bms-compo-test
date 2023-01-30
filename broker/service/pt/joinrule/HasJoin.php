@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imee\Package\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\Pt\JoinRule;
 
 
 use Imee\Package\Broker\Model\XsBroker;

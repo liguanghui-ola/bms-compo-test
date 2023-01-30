@@ -1,10 +1,10 @@
 <?php
 
-namespace Imee\Package\Broker\Service\PT;
+namespace Imee\Package\Broker\Service\Pt;
 
-use Imee\Package\Broker\Service\BaseJoinService;
 
-class PtJoinService extends BaseJoinService
+
+class PtZhJoinService extends PtBaseJoinService
 {
     protected  $operator = ["HasGs"];
     protected function join(array $params): array
