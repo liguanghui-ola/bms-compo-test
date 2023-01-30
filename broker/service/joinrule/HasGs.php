@@ -1,15 +1,15 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\JoinRule;
 
 
-use Imee\Compo\Broker\Model\XsBrokerUser;
-use Imee\Compo\Broker\Model\XssChatroomPackageUser;
-use Imee\Compo\Broker\Model\XsstAccountRelationship;
-use Imee\Compo\Broker\Model\XsstChannelReception;
-use Imee\Compo\Broker\Model\XsUserPopularity;
-use Imee\Compo\Broker\Model\XsUserProfile;
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Model\XsBrokerUser;
+use Imee\Package\Broker\Model\XssChatroomPackageUser;
+use Imee\Package\Broker\Model\XsstAccountRelationship;
+use Imee\Package\Broker\Model\XsstChannelReception;
+use Imee\Package\Broker\Model\XsUserPopularity;
+use Imee\Package\Broker\Model\XsUserProfile;
+use Imee\Package\Broker\Service\RuleInterface;
 use Imee\Service\Helper;
 
 /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\JoinRule;
 
-use Imee\Compo\Broker\Model\XsBroker;
-use Imee\Compo\Broker\Model\XsstBrokerUserExit;
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Model\XsBroker;
+use Imee\Package\Broker\Model\XsstBrokerUserExit;
+use Imee\Package\Broker\Service\RuleInterface;
 
 /**
  * 距离退出上一个公会还不足两个月，不能加入娱乐或者陪玩的公会！

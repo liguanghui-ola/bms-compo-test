@@ -1,11 +1,11 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\JoinRule;
 
-use Imee\Compo\Broker\Model\XsBroker;
-use Imee\Compo\Broker\Model\XsstRiskMoneyGiftOp;
-use Imee\Compo\Broker\Model\XsstBrokerUserExit;
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Model\XsBroker;
+use Imee\Package\Broker\Model\XsstRiskMoneyGiftOp;
+use Imee\Package\Broker\Model\XsstBrokerUserExit;
+use Imee\Package\Broker\Service\RuleInterface;
 
 
 /**

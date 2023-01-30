@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Imee\Compo\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\JoinRule;
 
 
-use Imee\Compo\Broker\Model\XsBroker;
-use Imee\Compo\Broker\Model\XsBrokerUser;
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Model\XsBroker;
+use Imee\Package\Broker\Model\XsBrokerUser;
+use Imee\Package\Broker\Service\RuleInterface;
 
 /**
  * 判断用户是否已加入了公会（待审核｜已加入俩种）

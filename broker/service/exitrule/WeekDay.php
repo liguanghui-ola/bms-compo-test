@@ -1,8 +1,8 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\ExitRule;
+namespace Imee\Package\Broker\Service\ExitRule;
 
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Service\RuleInterface;
 
 
 /**

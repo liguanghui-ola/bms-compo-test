@@ -1,6 +1,6 @@
 <?php
 
-namespace Imee\Compo\Broker\Service;
+namespace Imee\Package\Broker\Service;
 
 abstract class BaseJoinService
 {
@@ -18,7 +18,7 @@ abstract class BaseJoinService
     protected function checkAllRule(array $brokerInfo, int $uid, array $ext): array
     {
         foreach ($this->operator as $class) {
-            $class = "\Imee\Compo\Broker\Service\JoinRule\\" . $class;
+            $class = "\Imee\Package\Broker\Service\JoinRule\\" . $class;
             if (!class_exists($class)) {
                 throw new \Exception($class . "not found");
             }

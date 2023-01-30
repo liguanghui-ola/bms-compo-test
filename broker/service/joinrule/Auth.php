@@ -1,13 +1,13 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\JoinRule;
 
-use Imee\Compo\Broker\Model\XsUserIdcard;
-use Imee\Compo\Broker\Model\XsUserMobile;
-use Imee\Compo\Broker\Model\XsUserProfile;
-use Imee\Compo\Broker\Model\XsUserSafeMobile;
-use Imee\Compo\Broker\Model\XsUserSettings;
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Model\XsUserIdcard;
+use Imee\Package\Broker\Model\XsUserMobile;
+use Imee\Package\Broker\Model\XsUserProfile;
+use Imee\Package\Broker\Model\XsUserSafeMobile;
+use Imee\Package\Broker\Model\XsUserSettings;
+use Imee\Package\Broker\Service\RuleInterface;
 
 
 /**

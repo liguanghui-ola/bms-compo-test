@@ -1,6 +1,6 @@
 <?php
-namespace Imee\Compo\Broker\Model;
-use Imee\Compo\Broker\Model\Traits\MysqlCollectionTrait;
+namespace Imee\Package\Broker\Model;
+use Imee\Package\Broker\Model\Traits\MysqlCollectionTrait;
 
 class BmsSignAddBrokerLog extends \BmsBaseModel
 {

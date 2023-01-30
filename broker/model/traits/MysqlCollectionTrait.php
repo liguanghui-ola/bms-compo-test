@@ -1,6 +1,6 @@
 <?php
 
-namespace Imee\Compo\Broker\Model\Traits;
+namespace Imee\Package\Broker\Model\Traits;
 
 use Phalcon\Di;
 

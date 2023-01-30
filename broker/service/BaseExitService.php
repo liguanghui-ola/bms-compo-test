@@ -1,6 +1,6 @@
 <?php
 
-namespace Imee\Compo\Broker\Service;
+namespace Imee\Package\Broker\Service;
 
 abstract class BaseExitService
 {
@@ -18,7 +18,7 @@ abstract class BaseExitService
     protected function checkAllRule($brokerInfo, $uid): array
     {
         foreach ($this->operator as $class) {
-            $class = "\Imee\Compo\Broker\Service\Rule\\".$class . "Rule";
+            $class = "\Imee\Package\Broker\Service\Rule\\".$class . "Rule";
 
             if (!class_exists($class)) {
                 throw new \Exception($class . "not found");

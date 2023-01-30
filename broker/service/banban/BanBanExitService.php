@@ -1,9 +1,9 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\BanBan;
+namespace Imee\Package\Broker\Service\BanBan;
 
-use Imee\Compo\Broker\Model\XsBrokerUser;
-use Imee\Compo\Broker\Service\BaseExitService;
+use Imee\Package\Broker\Model\XsBrokerUser;
+use Imee\Package\Broker\Service\BaseExitService;
 
 class BanBanExitService extends BaseExitService
 {

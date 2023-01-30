@@ -1,9 +1,9 @@
 <?php
 
-namespace Imee\Compo\Broker\Service\JoinRule;
+namespace Imee\Package\Broker\Service\JoinRule;
 
-use Imee\Compo\Broker\Model\XsUserProfile;
-use Imee\Compo\Broker\Service\RuleInterface;
+use Imee\Package\Broker\Model\XsUserProfile;
+use Imee\Package\Broker\Service\RuleInterface;
 
 
 /**
