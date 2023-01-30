@@ -3,7 +3,7 @@
 namespace Imee\Package\Broker\Service\BanBan;
 
 use Imee\Package\Broker\Model\XsBrokerUser;
-use Imee\Package\Broker\Service\BaseExitService;
+use Imee\Package\Broker\Service\BanBan\BaseExitService;
 
 class BanBanExitService extends BaseExitService
 {

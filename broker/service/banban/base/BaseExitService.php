@@ -1,6 +1,6 @@
 <?php
 
-namespace Imee\Package\Broker\Service\BanBan;
+namespace Imee\Package\Broker\Service\BanBan\Base;
 
 abstract class BaseExitService
 {
