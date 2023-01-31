@@ -11,6 +11,7 @@ class BanBanExitService extends BaseExitService
     protected $operator = [];
     protected function join(array $params): array
     {
+
         $userInfo = XsBrokerUser::findOne(47);
         return  [true,$userInfo];
     }
